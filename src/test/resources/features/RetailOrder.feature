@@ -3,7 +3,7 @@ Feature: Retail Order Page
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'eclipse.testing1@gmail.com' and password 'Tek123!@#$$#'
+    And User enter email 'maya.alieva@tekschool.us' and password 'Alijon@02'
     And User click on login button
     And User should be logged in into Account
     And User click on Orders section
@@ -18,7 +18,7 @@ Feature: Retail Order Page
   Scenario: Verify User can Return the order
     And User click on Return Items button
     And User select the Return Reason 'Item damaged'
-    And User select the drop off service 'FedEx'
+    And User select the drop off service 'UPS'
     And User click on Return Order button
     Then a cancelation message should be displayed 'Return was successfull'
 

@@ -9,7 +9,7 @@ public class RetailAccountPage {
 }
 
 	@FindBy(id="//input[@id='nameInput']")
-	public WebElement nameInputField;
+	public WebElement nameInputField);
 
 	@FindBy(id = "personalPhoneInput")
 	public WebElement phoneInputField;
